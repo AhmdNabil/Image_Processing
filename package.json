@@ -1,0 +1,39 @@
+{
+  "name": "image_processing",
+  "version": "1.0.0",
+  "description": "Image processing API - Image resizer",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "build": "npx tsc",
+    "lint": "eslint src/ --ext .ts",
+    "prettier": "prettier --config .prettierrc \"src/**/*.ts\" --write",
+    "test": "npx tsc && jasmine"
+  },
+  "keywords": [],
+  "author": "Ahmed Nabil",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jasmine": "^3.10.3",
+    "@types/node": "^17.0.19",
+    "@types/sharp": "^0.29.5",
+    "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jasmine": "^4.0.2",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "supertest": "^6.2.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "sharp": "^0.30.1"
+  }
+}
